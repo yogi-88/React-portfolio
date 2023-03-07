@@ -1,12 +1,21 @@
+import React from "react";
 import Header from "./components/Header";
-function App() {
+import project from "./components/project";
+import Contact from "./Pages/Contact";
+import Homepage from "./Pages/Homepage";
+import Projects from "./Pages/Projects";
+export default function App() {
   return (
-    <div>
+    <main>
       <Header />
+      <Homepage />
+      <project />
+      <Projects />
+      <Contact />
       
 
-    </div>
+    </main>
   );
 }
 
-export default App;
+
