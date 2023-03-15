@@ -52,13 +52,13 @@ const Navbar = () => {
           <Link to="/">About</Link>
         </li>
         <li className="py-6" text-4xl="true">
-          <Link to="/">Skills</Link>
+          <Link to="/skills">Skills</Link>
         </li>
         <li className="py-6" text-4xl="true">
-          <Link to="/">Projects</Link>
+          <Link to="/projects">Projects</Link>
         </li>
         <li className="py-6" text-4xl="true">
-          <Link to="/">Contact</Link>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </div>
