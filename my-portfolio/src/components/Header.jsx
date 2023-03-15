@@ -2,7 +2,7 @@ import React , {useState} from 'react';
 import {Link} from 'react-router-dom';
 import {FaBars, FaTimes} from 'react-icons/fa';
 
-const Navbar = () => {
+const Header = () => {
     {/* declares a state variable 'nav' that represents whether the navigation bar is open or close. and function 'setnav' that can be used to update the 'nav' variable */}
     const [nav, setNav] = useState(false) 
     const handleClick = () => setNav(!nav)
@@ -65,5 +65,5 @@ const Navbar = () => {
   );
 }
 
-export default Navbar
+export default Header;
 
