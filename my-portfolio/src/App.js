@@ -5,12 +5,14 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./pages/Contact";
 import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <Router>
       <div>
         <Header />
+        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -18,6 +20,9 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+
+        <Footer />
+       
       </div>
     </Router>
   );
