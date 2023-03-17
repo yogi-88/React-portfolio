@@ -17,62 +17,21 @@ function Footer() {
           <ul className="flex justify-center items-center flex-wrap my-5">
             <li className="mr-4">
               <a href="https://github.com/yogi-88">
-                <FaGithub />
+                <FaGithub className="text-xl hover:scale-105 hover:text-red-500"/>
               </a>
             </li>
             <li className="mr-4">
               <a href="https://www.linkedin.com/in/yogita-negi-0aa79121/">
-                <FaLinkedin />
+                <FaLinkedin className="text-xl hover:scale-105 hover:text-red-500"/>
               </a>
             </li>
             <li className="mr-4">
               <a href="https://twitter.com/home">
-                <FaTwitter />
+                <FaTwitter className="text-xl hover:scale-105 hover:text-red-500"/>
               </a>
             </li>
           </ul>
-          <ul className="flex justify-center items-center flex-wrap my-5">
-            <li className="mx-2">
-              <a
-                href="#"
-                className="text-white text-lg opacity-75 hover:opacity-100 transition-all"
-              >
-                Home
-              </a>
-            </li>
-            <li className="mx-2">
-              <a
-                href="#"
-                className="text-white text-lg opacity-75 hover:opacity-100 transition-all"
-              >
-                About
-              </a>
-            </li>
-            <li className="mx-2">
-              <a
-                href="#"
-                className="text-white text-lg opacity-75 hover:opacity-100 transition-all"
-              >
-                Services
-              </a>
-            </li>
-            <li className="mx-2">
-              <a
-                href="#"
-                className="text-white text-lg opacity-75 hover:opacity-100 transition-all"
-              >
-                Team
-              </a>
-            </li>
-            <li className="mx-2">
-              <a
-                href="#"
-                className="text-white text-lg opacity-75 hover:opacity-100 transition-all"
-              >
-                Contact
-              </a>
-            </li>
-          </ul>
+
         </div>
       </div>
       <p className="text-white text-sm my-3">
