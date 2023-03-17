@@ -11,13 +11,17 @@ const Skills = () => {
                       </p>
                 </div>
                 <div></div>
-                <div className='max-w-[1000px] w-full-grid sm:grid-cols-2 gap-8 px-4'>
-                    <div className='sm:text-right text-4xl font-bold'>
-                        <p>SKILLS</p>
+                <div className='max-w-[1000px] w-full-grid sm:grid-cols-2 gap-8 px-4 space-x-8'>
+                    
+                    <div className="grid grid-cols-3 gap-4">
+                      <div className="flex justify-center"> <button class="rounded-lg bg-red-400 hover:bg-blue-700 font-bold py-4 px-8">HTML</button></div>
+                      <div className="flex justify-center"><button class="rounded-lg bg-red-400 hover:bg-blue-700 font-bold py-4 px-8">CSS</button></div>
+                      <div className="flex justify-center"><button class="rounded-lg bg-red-400 hover:bg-blue-700 font-bold py-4 px-8">Javascript</button></div>
+                      <div className="flex justify-center"><button class="rounded-lg bg-red-400 hover:bg-blue-700 font-bold py-4 px-8">Bootstrap</button></div>
+                      <div className="flex justify-center"><button class="rounded-lg bg-red-400 hover:bg-blue-700 font-bold py-4 px-8">React</button></div>
+                      <div className="flex justify-center"><button class="rounded-lg bg-red-400 hover:bg-blue-700 font-bold py-4 px-8">Github</button></div>
                     </div>
-                    <div>
-                        <p>HTML, CSS, JAVASCRIPT</p>
-                    </div>
+
                 </div>
 
 
